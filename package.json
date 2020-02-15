@@ -1,0 +1,14 @@
+{
+    "name": "uppage",
+    "version": "1.0.1",
+    "description": "Uploads your current working directory to Amazon S3 and hosts it as a public website.",
+    "main": "main.js",
+    "bin": "main.js",
+    "author": "Paul Cosma",
+    "license": "ISC",
+    "dependencies": {
+        "@auth0/s3": "^1.0.0",
+        "aws-sdk": "^2.619.0",
+        "minimist": "^1.2.0"
+    }
+}
