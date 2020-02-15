@@ -20,7 +20,7 @@ const options = minimist(process.argv.slice(2), {
 
 options.path = path.resolve(options.path);
 
-if (!options['name'] || options['access-key'] || options['secret-key'] || options['help']) {
+if (!options['name'] || !options['access-key'] || !options['secret-key'] || options['help']) {
     console.log('### UpPage Manual ###\n');
     console.log(
         'Usage:\n\t$ npx uppage --name <string> --access-key <string> --secret-key <string>'
